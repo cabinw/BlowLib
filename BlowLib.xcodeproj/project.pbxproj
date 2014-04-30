@@ -381,7 +381,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RecorderTest/BlowLib-Prefix.pch";
-				INFOPLIST_FILE = "RecorderTest/BlowLib-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/RecorderTest/BlowLib-Info.plist";
 				PRODUCT_NAME = BlowLib;
 				WRAPPER_EXTENSION = app;
 			};
@@ -394,7 +394,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RecorderTest/BlowLib-Prefix.pch";
-				INFOPLIST_FILE = "RecorderTest/BlowLib-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/RecorderTest/BlowLib-Info.plist";
 				PRODUCT_NAME = BlowLib;
 				WRAPPER_EXTENSION = app;
 			};
