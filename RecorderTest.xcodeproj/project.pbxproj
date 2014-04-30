@@ -457,6 +457,7 @@
 				5260EC5919100F6000E20B0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5260EC5A19100F6000E20B0A /* Build configuration list for PBXNativeTarget "RecorderTestTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +466,7 @@
 				5260EC5C19100F6000E20B0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

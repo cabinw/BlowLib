@@ -7,7 +7,22 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreAudio/CoreAudioTypes.h>
+#import <AVFoundation/AVFoundation.h>
 
-@interface RTViewController : UIViewController
+@interface RTViewController : UIViewController<UIScrollViewDelegate>{
+    AVAudioRecorder *recorder;
+    NSTimer *levelTimer;
+    double lowPassResults;
+    CGPoint previousPoint;
+//    UILabel* number;
+    BOOL isPeakPowerSelected;
+}
+
+@property (strong,nonatomic) IBOutlet UIScrollView* scrollView;
+@property (strong,nonatomic) IBOutlet UILabel* number;
+@property (nonatomic,strong) IBOutlet UITableView* numberTableView;
+
+-(IBAction)segmentSelected:(id)sender;
 
 @end
