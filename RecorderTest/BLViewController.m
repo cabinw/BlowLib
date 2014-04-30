@@ -26,9 +26,6 @@ int checkPoint = 190;
 	// Do any additional setup after loading the view, typically from a nib.
     previousPoint = CGPointMake(0, 160);
     
-//    number = [[UILabel alloc] initWithFrame:CGRectMake(210, 10, 120, 20)];
-//    [number setTextColor:[UIColor whiteColor]];
-//    [scrollView addSubview:number];
     scrollView.delegate = self;
     
     isPeakPowerSelected = false;
@@ -45,6 +42,7 @@ int checkPoint = 190;
                               [NSNumber numberWithInt: AVAudioQualityMax],         AVEncoderAudioQualityKey,
                               nil];
     
+    // Recorder initialization.
     NSError *error;
     
     recorder = [[AVAudioRecorder alloc] initWithURL:url settings:settings error:&error];
@@ -53,7 +51,6 @@ int checkPoint = 190;
     AVAudioSession *audioSession = [AVAudioSession sharedInstance];
     [audioSession setCategory:AVAudioSessionCategoryPlayAndRecord error:nil];
     [audioSession setActive:YES error:nil];
-    //===============
     
     if (recorder) {
         [recorder prepareToRecord];
@@ -147,19 +144,11 @@ int checkPoint = 190;
         [self drawLineFrom:previousPoint to:currentPoint withColor:nil];
     }
     
-    
-//    NSLog(@"current point x: %.0f",currentPoint.x);
-//    NSLog(@"content witdth: %0.f",scrollView.contentSize.width);
-    
-    
     if (currentPoint.x >= showWidth) {
         scrollView.contentSize = CGSizeMake(scrollView.contentSize.width+gap, scrollView.contentSize.height);
-//        [number setCenter:CGPointMake(number.center.x+gap, number.center.y)];
         [scrollView scrollRectToVisible:CGRectMake(currentPoint.x-showWidth, 0, 320, 200) animated:true];
 //        [scrollView setContentOffset:CGPointMake(currentPoint.x-showWidth, 0) animated:YES];
     }
-    
-    NSLog(@"label x: %f",number.center.x);
     
     previousPoint = currentPoint;
     

@@ -15,7 +15,7 @@
     NSTimer *levelTimer;
     double lowPassResults;
     CGPoint previousPoint;
-//    UILabel* number;
+    
     BOOL isPeakPowerSelected;
     BOOL isAveragePowerSelected;
     BOOL isCustomPowerSelected;
