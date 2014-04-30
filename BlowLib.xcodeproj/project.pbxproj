@@ -12,15 +12,15 @@
 		5260EC2D19100F6000E20B0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5260EC2C19100F6000E20B0A /* UIKit.framework */; };
 		5260EC3319100F6000E20B0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5260EC3119100F6000E20B0A /* InfoPlist.strings */; };
 		5260EC3519100F6000E20B0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5260EC3419100F6000E20B0A /* main.m */; };
-		5260EC3919100F6000E20B0A /* RTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5260EC3819100F6000E20B0A /* RTAppDelegate.m */; };
+		5260EC3919100F6000E20B0A /* BLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5260EC3819100F6000E20B0A /* BLAppDelegate.m */; };
 		5260EC3C19100F6000E20B0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5260EC3A19100F6000E20B0A /* Main.storyboard */; };
-		5260EC3F19100F6000E20B0A /* RTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5260EC3E19100F6000E20B0A /* RTViewController.m */; };
+		5260EC3F19100F6000E20B0A /* BLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5260EC3E19100F6000E20B0A /* BLViewController.m */; };
 		5260EC4119100F6000E20B0A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5260EC4019100F6000E20B0A /* Images.xcassets */; };
 		5260EC4819100F6000E20B0A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5260EC4719100F6000E20B0A /* XCTest.framework */; };
 		5260EC4919100F6000E20B0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5260EC2819100F6000E20B0A /* Foundation.framework */; };
 		5260EC4A19100F6000E20B0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5260EC2C19100F6000E20B0A /* UIKit.framework */; };
 		5260EC5219100F6000E20B0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5260EC5019100F6000E20B0A /* InfoPlist.strings */; };
-		5260EC5419100F6000E20B0A /* RecorderTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5260EC5319100F6000E20B0A /* RecorderTestTests.m */; };
+		5260EC5419100F6000E20B0A /* BlowLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5260EC5319100F6000E20B0A /* BlowLibTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,25 +34,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5260EC2519100F6000E20B0A /* RecorderTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecorderTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5260EC2519100F6000E20B0A /* BlowLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlowLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5260EC2819100F6000E20B0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5260EC2A19100F6000E20B0A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		5260EC2C19100F6000E20B0A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		5260EC3019100F6000E20B0A /* RecorderTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RecorderTest-Info.plist"; sourceTree = "<group>"; };
+		5260EC3019100F6000E20B0A /* BlowLib-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlowLib-Info.plist"; sourceTree = "<group>"; };
 		5260EC3219100F6000E20B0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5260EC3419100F6000E20B0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5260EC3619100F6000E20B0A /* RecorderTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RecorderTest-Prefix.pch"; sourceTree = "<group>"; };
-		5260EC3719100F6000E20B0A /* RTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTAppDelegate.h; sourceTree = "<group>"; };
-		5260EC3819100F6000E20B0A /* RTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTAppDelegate.m; sourceTree = "<group>"; };
+		5260EC3619100F6000E20B0A /* BlowLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlowLib-Prefix.pch"; sourceTree = "<group>"; };
+		5260EC3719100F6000E20B0A /* BLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLAppDelegate.h; sourceTree = "<group>"; };
+		5260EC3819100F6000E20B0A /* BLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLAppDelegate.m; sourceTree = "<group>"; };
 		5260EC3B19100F6000E20B0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5260EC3D19100F6000E20B0A /* RTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTViewController.h; sourceTree = "<group>"; };
-		5260EC3E19100F6000E20B0A /* RTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTViewController.m; sourceTree = "<group>"; };
+		5260EC3D19100F6000E20B0A /* BLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLViewController.h; sourceTree = "<group>"; };
+		5260EC3E19100F6000E20B0A /* BLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLViewController.m; sourceTree = "<group>"; };
 		5260EC4019100F6000E20B0A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5260EC4619100F6000E20B0A /* RecorderTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecorderTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5260EC4619100F6000E20B0A /* BlowLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlowLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5260EC4719100F6000E20B0A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		5260EC4F19100F6000E20B0A /* RecorderTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RecorderTestTests-Info.plist"; sourceTree = "<group>"; };
+		5260EC4F19100F6000E20B0A /* BlowLibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlowLibTests-Info.plist"; sourceTree = "<group>"; };
 		5260EC5119100F6000E20B0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5260EC5319100F6000E20B0A /* RecorderTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecorderTestTests.m; sourceTree = "<group>"; };
+		5260EC5319100F6000E20B0A /* BlowLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlowLibTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +82,8 @@
 		5260EC1C19100F6000E20B0A = {
 			isa = PBXGroup;
 			children = (
-				5260EC2E19100F6000E20B0A /* RecorderTest */,
-				5260EC4D19100F6000E20B0A /* RecorderTestTests */,
+				5260EC2E19100F6000E20B0A /* BlowLib */,
+				5260EC4D19100F6000E20B0A /* BlowLibTests */,
 				5260EC2719100F6000E20B0A /* Frameworks */,
 				5260EC2619100F6000E20B0A /* Products */,
 			);
@@ -92,8 +92,8 @@
 		5260EC2619100F6000E20B0A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5260EC2519100F6000E20B0A /* RecorderTest.app */,
-				5260EC4619100F6000E20B0A /* RecorderTestTests.xctest */,
+				5260EC2519100F6000E20B0A /* BlowLib.app */,
+				5260EC4619100F6000E20B0A /* BlowLibTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,44 +109,46 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5260EC2E19100F6000E20B0A /* RecorderTest */ = {
+		5260EC2E19100F6000E20B0A /* BlowLib */ = {
 			isa = PBXGroup;
 			children = (
-				5260EC3719100F6000E20B0A /* RTAppDelegate.h */,
-				5260EC3819100F6000E20B0A /* RTAppDelegate.m */,
+				5260EC3719100F6000E20B0A /* BLAppDelegate.h */,
+				5260EC3819100F6000E20B0A /* BLAppDelegate.m */,
 				5260EC3A19100F6000E20B0A /* Main.storyboard */,
-				5260EC3D19100F6000E20B0A /* RTViewController.h */,
-				5260EC3E19100F6000E20B0A /* RTViewController.m */,
+				5260EC3D19100F6000E20B0A /* BLViewController.h */,
+				5260EC3E19100F6000E20B0A /* BLViewController.m */,
 				5260EC4019100F6000E20B0A /* Images.xcassets */,
 				5260EC2F19100F6000E20B0A /* Supporting Files */,
 			);
+			name = BlowLib;
 			path = RecorderTest;
 			sourceTree = "<group>";
 		};
 		5260EC2F19100F6000E20B0A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5260EC3019100F6000E20B0A /* RecorderTest-Info.plist */,
+				5260EC3019100F6000E20B0A /* BlowLib-Info.plist */,
 				5260EC3119100F6000E20B0A /* InfoPlist.strings */,
 				5260EC3419100F6000E20B0A /* main.m */,
-				5260EC3619100F6000E20B0A /* RecorderTest-Prefix.pch */,
+				5260EC3619100F6000E20B0A /* BlowLib-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5260EC4D19100F6000E20B0A /* RecorderTestTests */ = {
+		5260EC4D19100F6000E20B0A /* BlowLibTests */ = {
 			isa = PBXGroup;
 			children = (
-				5260EC5319100F6000E20B0A /* RecorderTestTests.m */,
+				5260EC5319100F6000E20B0A /* BlowLibTests.m */,
 				5260EC4E19100F6000E20B0A /* Supporting Files */,
 			);
+			name = BlowLibTests;
 			path = RecorderTestTests;
 			sourceTree = "<group>";
 		};
 		5260EC4E19100F6000E20B0A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5260EC4F19100F6000E20B0A /* RecorderTestTests-Info.plist */,
+				5260EC4F19100F6000E20B0A /* BlowLibTests-Info.plist */,
 				5260EC5019100F6000E20B0A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -155,9 +157,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5260EC2419100F6000E20B0A /* RecorderTest */ = {
+		5260EC2419100F6000E20B0A /* BlowLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5260EC5719100F6000E20B0A /* Build configuration list for PBXNativeTarget "RecorderTest" */;
+			buildConfigurationList = 5260EC5719100F6000E20B0A /* Build configuration list for PBXNativeTarget "BlowLib" */;
 			buildPhases = (
 				5260EC2119100F6000E20B0A /* Sources */,
 				5260EC2219100F6000E20B0A /* Frameworks */,
@@ -167,14 +169,14 @@
 			);
 			dependencies = (
 			);
-			name = RecorderTest;
+			name = BlowLib;
 			productName = RecorderTest;
-			productReference = 5260EC2519100F6000E20B0A /* RecorderTest.app */;
+			productReference = 5260EC2519100F6000E20B0A /* BlowLib.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5260EC4519100F6000E20B0A /* RecorderTestTests */ = {
+		5260EC4519100F6000E20B0A /* BlowLibTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5260EC5A19100F6000E20B0A /* Build configuration list for PBXNativeTarget "RecorderTestTests" */;
+			buildConfigurationList = 5260EC5A19100F6000E20B0A /* Build configuration list for PBXNativeTarget "BlowLibTests" */;
 			buildPhases = (
 				5260EC4219100F6000E20B0A /* Sources */,
 				5260EC4319100F6000E20B0A /* Frameworks */,
@@ -185,9 +187,9 @@
 			dependencies = (
 				5260EC4C19100F6000E20B0A /* PBXTargetDependency */,
 			);
-			name = RecorderTestTests;
+			name = BlowLibTests;
 			productName = RecorderTestTests;
-			productReference = 5260EC4619100F6000E20B0A /* RecorderTestTests.xctest */;
+			productReference = 5260EC4619100F6000E20B0A /* BlowLibTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -196,16 +198,16 @@
 		5260EC1D19100F6000E20B0A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = RT;
+				CLASSPREFIX = BL;
 				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = Wukaibing;
+				ORGANIZATIONNAME = cabinw;
 				TargetAttributes = {
 					5260EC4519100F6000E20B0A = {
 						TestTargetID = 5260EC2419100F6000E20B0A;
 					};
 				};
 			};
-			buildConfigurationList = 5260EC2019100F6000E20B0A /* Build configuration list for PBXProject "RecorderTest" */;
+			buildConfigurationList = 5260EC2019100F6000E20B0A /* Build configuration list for PBXProject "BlowLib" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,8 +220,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5260EC2419100F6000E20B0A /* RecorderTest */,
-				5260EC4519100F6000E20B0A /* RecorderTestTests */,
+				5260EC2419100F6000E20B0A /* BlowLib */,
+				5260EC4519100F6000E20B0A /* BlowLibTests */,
 			);
 		};
 /* End PBXProject section */
@@ -250,8 +252,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5260EC3919100F6000E20B0A /* RTAppDelegate.m in Sources */,
-				5260EC3F19100F6000E20B0A /* RTViewController.m in Sources */,
+				5260EC3919100F6000E20B0A /* BLAppDelegate.m in Sources */,
+				5260EC3F19100F6000E20B0A /* BLViewController.m in Sources */,
 				5260EC3519100F6000E20B0A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5260EC5419100F6000E20B0A /* RecorderTestTests.m in Sources */,
+				5260EC5419100F6000E20B0A /* BlowLibTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +271,7 @@
 /* Begin PBXTargetDependency section */
 		5260EC4C19100F6000E20B0A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5260EC2419100F6000E20B0A /* RecorderTest */;
+			target = 5260EC2419100F6000E20B0A /* BlowLib */;
 			targetProxy = 5260EC4B19100F6000E20B0A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -378,9 +380,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RecorderTest/RecorderTest-Prefix.pch";
-				INFOPLIST_FILE = "RecorderTest/RecorderTest-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "RecorderTest/BlowLib-Prefix.pch";
+				INFOPLIST_FILE = "RecorderTest/BlowLib-Info.plist";
+				PRODUCT_NAME = BlowLib;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -391,9 +393,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RecorderTest/RecorderTest-Prefix.pch";
-				INFOPLIST_FILE = "RecorderTest/RecorderTest-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "RecorderTest/BlowLib-Prefix.pch";
+				INFOPLIST_FILE = "RecorderTest/BlowLib-Info.plist";
+				PRODUCT_NAME = BlowLib;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -413,8 +415,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "RecorderTestTests/RecorderTestTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "RecorderTestTests/BlowLibTests-Info.plist";
+				PRODUCT_NAME = BlowLibTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -431,8 +433,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RecorderTest/RecorderTest-Prefix.pch";
-				INFOPLIST_FILE = "RecorderTestTests/RecorderTestTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "RecorderTestTests/BlowLibTests-Info.plist";
+				PRODUCT_NAME = BlowLibTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -441,7 +443,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5260EC2019100F6000E20B0A /* Build configuration list for PBXProject "RecorderTest" */ = {
+		5260EC2019100F6000E20B0A /* Build configuration list for PBXProject "BlowLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5260EC5519100F6000E20B0A /* Debug */,
@@ -450,7 +452,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5260EC5719100F6000E20B0A /* Build configuration list for PBXNativeTarget "RecorderTest" */ = {
+		5260EC5719100F6000E20B0A /* Build configuration list for PBXNativeTarget "BlowLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5260EC5819100F6000E20B0A /* Debug */,
@@ -459,7 +461,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5260EC5A19100F6000E20B0A /* Build configuration list for PBXNativeTarget "RecorderTestTests" */ = {
+		5260EC5A19100F6000E20B0A /* Build configuration list for PBXNativeTarget "BlowLibTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5260EC5B19100F6000E20B0A /* Debug */,

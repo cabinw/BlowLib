@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Wukaibing. All rights reserved.
 //
 
-#import "RTAppDelegate.h"
+#import "BLAppDelegate.h"
 
 @implementation RTAppDelegate
 

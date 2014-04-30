@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5260EC2419100F6000E20B0A"
                BuildableName = "RecorderTest.app"
-               BlueprintName = "RecorderTest"
-               ReferencedContainer = "container:RecorderTest.xcodeproj">
+               BlueprintName = "BlowLib"
+               ReferencedContainer = "container:BlowLib.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5260EC4519100F6000E20B0A"
                BuildableName = "RecorderTestTests.xctest"
-               BlueprintName = "RecorderTestTests"
-               ReferencedContainer = "container:RecorderTest.xcodeproj">
+               BlueprintName = "BlowLibTests"
+               ReferencedContainer = "container:BlowLib.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5260EC2419100F6000E20B0A"
             BuildableName = "RecorderTest.app"
-            BlueprintName = "RecorderTest"
-            ReferencedContainer = "container:RecorderTest.xcodeproj">
+            BlueprintName = "BlowLib"
+            ReferencedContainer = "container:BlowLib.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5260EC2419100F6000E20B0A"
             BuildableName = "RecorderTest.app"
-            BlueprintName = "RecorderTest"
-            ReferencedContainer = "container:RecorderTest.xcodeproj">
+            BlueprintName = "BlowLib"
+            ReferencedContainer = "container:BlowLib.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5260EC2419100F6000E20B0A"
             BuildableName = "RecorderTest.app"
-            BlueprintName = "RecorderTest"
-            ReferencedContainer = "container:RecorderTest.xcodeproj">
+            BlueprintName = "BlowLib"
+            ReferencedContainer = "container:BlowLib.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
