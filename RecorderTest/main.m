@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "RTAppDelegate.h"
+#import "BLAppDelegate.h"
 
 int main(int argc, char * argv[])
 {

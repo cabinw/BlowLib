@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Wukaibing. All rights reserved.
 //
 
-#import "RTViewController.h"
+#import "BLViewController.h"
 
 @interface RTViewController ()
 
