@@ -17,6 +17,8 @@
     CGPoint previousPoint;
 //    UILabel* number;
     BOOL isPeakPowerSelected;
+    BOOL isAveragePowerSelected;
+    BOOL isCustomPowerSelected;
 }
 
 @property (strong,nonatomic) IBOutlet UIScrollView* scrollView;

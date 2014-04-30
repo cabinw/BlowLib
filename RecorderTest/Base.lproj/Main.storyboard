@@ -17,11 +17,12 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="3Ap-uC-Ssz">
-                                <rect key="frame" x="55" y="29" width="211" height="29"/>
+                                <rect key="frame" x="55" y="29" width="191" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
-                                    <segment title="Peak Power"/>
-                                    <segment title="Average Power"/>
+                                    <segment title="Peak"/>
+                                    <segment title="Average"/>
+                                    <segment title="Custom"/>
                                 </segments>
                                 <connections>
                                     <action selector="segmentSelected:" destination="vXZ-lx-hvc" eventType="valueChanged" id="yzx-hx-dIK"/>

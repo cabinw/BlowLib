@@ -18,6 +18,7 @@
 
 int gap = 3;
 int showWidth = 280;
+int checkPoint = 190;
 
 - (void)viewDidLoad
 {
@@ -31,6 +32,8 @@ int showWidth = 280;
     scrollView.delegate = self;
     
     isPeakPowerSelected = false;
+    isAveragePowerSelected = true;
+    isCustomPowerSelected = false;
     
     
     NSURL *url = [NSURL fileURLWithPath:@"/dev/null"];
@@ -122,20 +125,23 @@ int showWidth = 280;
 
 - (void)levelTimerCallback:(NSTimer *)timer {
 	[recorder updateMeters];
+    
     if (isPeakPowerSelected) {
         lowPassResults = [recorder peakPowerForChannel:0];
-    }else{
+    }else if (isAveragePowerSelected){
         lowPassResults = [recorder averagePowerForChannel:0];
+    }else{
+        const double ALPHA = 0.05;
+        double peakPowerForChannel = pow(10, (0.05 * [recorder peakPowerForChannel:0]));
+        lowPassResults = ALPHA * peakPowerForChannel + (1.0 - ALPHA) * lowPassResults;
     }
-//    lowPassResults = [recorder peakPowerForChannel:0];
-//    lowPassResults = [recorder averagePowerForChannel:0];
     
     double value = 200 - (160+lowPassResults)+50;
     
     [number setText:[NSString stringWithFormat:@"%f",(160+lowPassResults)+50]];
     
     CGPoint currentPoint = CGPointMake(previousPoint.x+gap, value);
-    if ((160+lowPassResults)+50 >= 200) {
+    if ((160+lowPassResults)+50 >= checkPoint) {
         [self drawLineFrom:previousPoint to:currentPoint withColor:[UIColor redColor]];
     }else{
         [self drawLineFrom:previousPoint to:currentPoint withColor:nil];
@@ -164,8 +170,16 @@ int showWidth = 280;
     UISegmentedControl* temp = (UISegmentedControl*) sender;
     if(temp.selectedSegmentIndex == 0){
         isPeakPowerSelected = true;
-	}else{
+        isAveragePowerSelected = false;
+        isCustomPowerSelected = false;
+	}else if (temp.selectedSegmentIndex == 1){
+        isAveragePowerSelected = true;
         isPeakPowerSelected = false;
+        isCustomPowerSelected = false;
+    }else{
+        isCustomPowerSelected = true;
+        isPeakPowerSelected = true;
+        isAveragePowerSelected = true;
     }
     
 }
